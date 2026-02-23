@@ -40,7 +40,7 @@ class Notes {
 		arrL.add(2);
 		arrL.set(0, 4);
 		System.out.println(arrL); //ArrayList can simply just be printed
-		// int[] arr = new int[]{1, 3 , 5};
+		int[] arr = new int[]{1, 3 , 5};
 		// System.out.println(arr);
 
 		//remove
@@ -48,7 +48,7 @@ class Notes {
 		int a = 0; //index
 		Integer b = 2; //value
 		
-		arrL.remove(b);
+		arrL.remove(a);
 		System.out.println(arrL);
 
 		//Createing a HashMap
@@ -68,7 +68,7 @@ class Notes {
 		map.put("b", 2);
 		map.put("c", 3);
 		map.put("d", 1);
-		// map.put("a", 5); //KEYS NEED TO BE UNIQUE
+		// map.put("a", 5); //KEYS NEED TO BE UNIQUE, this will replace "a" with 5
 		
 		//Getting a Value from a HashMap -> access by key
 
